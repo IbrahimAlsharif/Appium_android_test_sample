@@ -24,9 +24,9 @@ public class AndroidTest {
         capabilities.setCapability("deviceName", "Android Emulator");
         capabilities.setCapability("app_activity",".ui.actionitem.MainActivity");
         capabilities.setCapability("app_package","jinyoung.dev.todolist");
-        String apkpath = "//Users//ibrahimalsharif//IdeaProjects//TodoList//app//build//outputs//apk//debug//app-debug.apk";
-        capabilities.setCapability(MobileCapabilityType.APP, apkpath);
-        File app = new File(apkpath);
+        String apkPath = "//Users//ibrahimalsharif//IdeaProjects//TodoList//app//build//outputs//apk//debug//app-debug.apk";
+        capabilities.setCapability(MobileCapabilityType.APP, apkPath);
+        File app = new File(apkPath);
         capabilities.setCapability(MobileCapabilityType.APP, app.getAbsolutePath());
         driver = new AndroidDriver(new URL("http://127.0.0.1:4723/wd/hub"), capabilities);
         driver.manage().timeouts().implicitlyWait(15, TimeUnit.SECONDS);
