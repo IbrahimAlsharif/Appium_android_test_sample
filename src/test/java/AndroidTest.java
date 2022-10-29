@@ -5,6 +5,7 @@ import io.appium.java_client.android.AndroidDriver;
 import io.appium.java_client.remote.MobileCapabilityType;
 import org.openqa.selenium.remote.DesiredCapabilities;
 import org.testng.Assert;
+import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 
@@ -24,7 +25,7 @@ public class AndroidTest {
         capabilities.setCapability("deviceName", "Android Emulator");
         capabilities.setCapability("app_activity",".ui.actionitem.MainActivity");
         capabilities.setCapability("app_package","jinyoung.dev.todolist");
-        String apkPath = "//Users//ibrahimalsharif//IdeaProjects//TodoList//app//build//outputs//apk//debug//app-debug.apk";
+        String apkPath = "src/app-debug.apk";
         capabilities.setCapability(MobileCapabilityType.APP, apkPath);
         File app = new File(apkPath);
         capabilities.setCapability(MobileCapabilityType.APP, app.getAbsolutePath());
@@ -43,21 +44,10 @@ public class AndroidTest {
         assertTrue(HomePOM.getNewTaskPopup().isDisplayed());
     }
 
-
-
-
-//    @Test
-//    public void test(){
-//
-//
-//
-//        MobileElement el3 = (MobileElement) driver.findElementById("jinyoung.dev.todolist:id/etName");
-//        el3.sendKeys("Task 01");
-//        MobileElement el4 = (MobileElement) driver.findElementById("jinyoung.dev.todolist:id/tvAdd");
-//        el4.click();
-//        MobileElement el5 = (MobileElement) driver.findElementById("jinyoung.dev.todolist:id/tvName");
-//        el5.click();
-//
-//    }
+    @AfterClass
+    public void tearDown(){
+        if (driver!= null)
+            driver.quit();
+    }
 
 }
