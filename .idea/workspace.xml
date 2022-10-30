@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0f91bf6d-cffc-43da-8fb4-2267fe240123" name="Changes" comment="Remove Todo list test">
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Calculator.java" beforeDir="false" />
+    <list default="true" id="0f91bf6d-cffc-43da-8fb4-2267fe240123" name="Changes" comment="Delete old test">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/AndroidTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/AndroidTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -187,7 +188,14 @@
       <option name="project" value="LOCAL" />
       <updated>1667070959077</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Delete old test">
+      <created>1667071022381</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1667071022381</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -211,7 +219,8 @@
     <MESSAGE value="Click add new task" />
     <MESSAGE value="Todo list example" />
     <MESSAGE value="Remove Todo list test" />
-    <option name="LAST_COMMIT_MESSAGE" value="Remove Todo list test" />
+    <MESSAGE value="Delete old test" />
+    <option name="LAST_COMMIT_MESSAGE" value="Delete old test" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Training_selenium_example$MainTest.ic" NAME="MainTest Coverage Results" MODIFIED="1661751127591" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />

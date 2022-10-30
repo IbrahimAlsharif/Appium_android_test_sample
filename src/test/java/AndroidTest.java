@@ -18,6 +18,7 @@ import static org.testng.Assert.assertTrue;
 
 public class AndroidTest {
     public static AppiumDriver driver = null;
+    private String itemName= "Item 1";
     @BeforeClass
     public void setUp() throws MalformedURLException {
         DesiredCapabilities capabilities= new DesiredCapabilities();
@@ -33,15 +34,28 @@ public class AndroidTest {
         driver.manage().timeouts().implicitlyWait(15, TimeUnit.SECONDS);
 
     }
-    @Test
+    @Test (priority = 1)
     public void verifyThatAddTaskButtonIsDisplayed() {
         assertTrue(HomePOM.getAddButton().isDisplayed());
     }
 
-    @Test
+    @Test(priority = 2)
     public void verifyThatTappingAddButtonLeadsToShowNewTaskInputPopup() {
         HomePOM.getAddButton().click();
         assertTrue(HomePOM.getNewTaskPopup().isDisplayed());
+    }
+
+    @Test(priority = 3)
+    public void testAddItem(){
+        driver.findElementById("jinyoung.dev.todolist:id/etName").sendKeys(itemName);
+        driver.findElementById("jinyoung.dev.todolist:id/tvAdd").click();
+        MobileElement newAddedItem = (MobileElement) driver.findElementById("jinyoung.dev.todolist:id/tvName");
+        Assert.assertTrue(newAddedItem.isDisplayed());
+    }
+    @Test(priority = 3)
+    public void verifyThatTheAddedItemIsCorrect(){
+        MobileElement newAddedItem = (MobileElement) driver.findElementById("jinyoung.dev.todolist:id/tvName");
+        Assert.assertEquals(newAddedItem.getText(),itemName);
     }
 
     @AfterClass
