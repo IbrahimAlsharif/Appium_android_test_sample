@@ -52,7 +52,7 @@ public class AndroidTest {
         MobileElement newAddedItem = (MobileElement) driver.findElementById("jinyoung.dev.todolist:id/tvName");
         Assert.assertTrue(newAddedItem.isDisplayed());
     }
-    @Test(priority = 3)
+    @Test(priority = 4)
     public void verifyThatTheAddedItemIsCorrect(){
         MobileElement newAddedItem = (MobileElement) driver.findElementById("jinyoung.dev.todolist:id/tvName");
         Assert.assertEquals(newAddedItem.getText(),itemName);
