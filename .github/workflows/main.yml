@@ -2,7 +2,6 @@ name: Appium CI
 # on push we will trigger our code
 on: [push]
 
-
 jobs:
   build:
     runs-on: macos-latest # the machine type
@@ -27,4 +26,4 @@ jobs:
         target: ${{ matrix.target }}
         arch: x86_64
         profile: Nexus 6
-        script: mvn test # running our test with info to check the results
+        script: mvn test # running the tests
