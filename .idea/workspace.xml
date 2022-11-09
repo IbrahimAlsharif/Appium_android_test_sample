@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0f91bf6d-cffc-43da-8fb4-2267fe240123" name="Changes" comment="Delete old test">
+    <list default="true" id="0f91bf6d-cffc-43da-8fb4-2267fe240123" name="Changes" comment="update test priority">
+      <change afterPath="$PROJECT_DIR$/RunAppiumServer.sh" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/AndroidTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/AndroidTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,7 +42,8 @@
   &quot;keyToString&quot;: {
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
 }</component>
   <component name="RecentsManager">
@@ -57,7 +58,7 @@
   <component name="RunManager" selected="TestNG.AndroidTest">
     <configuration name="LoadTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="UILoadTest.LoadTest" />
-      <module name="Training_selenium_example" />
+      <module name="Training_appium_example" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="UILoadTest.*" />
@@ -70,7 +71,7 @@
     </configuration>
     <configuration name="MainTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="UILoadTest.MainTest" />
-      <module name="Training_selenium_example" />
+      <module name="Training_appium_example" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="UILoadTest.*" />
@@ -83,20 +84,20 @@
     </configuration>
     <configuration name="UILoadTest.LoadTest4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="UILoadTest.LoadTest4" />
-      <module name="Training_selenium_example" />
+      <module name="Training_appium_example" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <configuration name="UILoadTest.LoadTest5" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="UILoadTest.LoadTest5" />
-      <module name="Training_selenium_example" />
+      <module name="Training_appium_example" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <configuration name="AndroidTest" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="Training_selenium_example" />
+      <module name="Training_appium_example" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="AndroidTest" />
       <option name="TEST_OBJECT" value="CLASS" />
@@ -195,7 +196,21 @@
       <option name="project" value="LOCAL" />
       <updated>1667071022381</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Add new test for students">
+      <created>1667137330087</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1667137330087</updated>
+    </task>
+    <task id="LOCAL-00012" summary="update test priority">
+      <created>1667137581726</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1667137581726</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -220,7 +235,9 @@
     <MESSAGE value="Todo list example" />
     <MESSAGE value="Remove Todo list test" />
     <MESSAGE value="Delete old test" />
-    <option name="LAST_COMMIT_MESSAGE" value="Delete old test" />
+    <MESSAGE value="Add new test for students" />
+    <MESSAGE value="update test priority" />
+    <option name="LAST_COMMIT_MESSAGE" value="update test priority" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Training_selenium_example$MainTest.ic" NAME="MainTest Coverage Results" MODIFIED="1661751127591" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
