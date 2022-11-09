@@ -4,8 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0f91bf6d-cffc-43da-8fb4-2267fe240123" name="Changes" comment="update test priority">
-      <change afterPath="$PROJECT_DIR$/RunAppiumServer.sh" afterDir="false" />
+    <list default="true" id="0f91bf6d-cffc-43da-8fb4-2267fe240123" name="Changes" comment="just for testing">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -55,7 +54,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.AndroidTest">
+  <component name="RunManager" selected="Shell Script.RunAppiumServer.sh">
     <configuration name="LoadTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="UILoadTest.LoadTest" />
       <module name="Training_appium_example" />
@@ -82,19 +81,27 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UILoadTest.LoadTest4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="UILoadTest.LoadTest4" />
-      <module name="Training_appium_example" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="UILoadTest.LoadTest5" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="UILoadTest.LoadTest5" />
       <module name="Training_appium_example" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
+    </configuration>
+    <configuration name="RunAppiumServer.sh" type="ShConfigurationType" temporary="true">
+      <option name="SCRIPT_TEXT" value="" />
+      <option name="INDEPENDENT_SCRIPT_PATH" value="true" />
+      <option name="SCRIPT_PATH" value="$PROJECT_DIR$/RunAppiumServer.sh" />
+      <option name="SCRIPT_OPTIONS" value="" />
+      <option name="INDEPENDENT_SCRIPT_WORKING_DIRECTORY" value="true" />
+      <option name="SCRIPT_WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="INDEPENDENT_INTERPRETER_PATH" value="true" />
+      <option name="INTERPRETER_PATH" value="/bin/zsh" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="EXECUTE_IN_TERMINAL" value="true" />
+      <option name="EXECUTE_SCRIPT_FILE" value="true" />
+      <envs />
+      <method v="2" />
     </configuration>
     <configuration name="AndroidTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Training_appium_example" />
@@ -109,11 +116,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Shell Script.RunAppiumServer.sh" />
         <item itemvalue="TestNG.AndroidTest" />
         <item itemvalue="Application.MainTest" />
         <item itemvalue="Application.LoadTest" />
         <item itemvalue="Application.UILoadTest.LoadTest5" />
-        <item itemvalue="Application.UILoadTest.LoadTest4" />
       </list>
     </recent_temporary>
   </component>
@@ -210,7 +217,21 @@
       <option name="project" value="LOCAL" />
       <updated>1667137581726</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Add run appium server batch">
+      <created>1667986880485</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1667986880485</updated>
+    </task>
+    <task id="LOCAL-00014" summary="just for testing">
+      <created>1667987158380</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1667987158380</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -237,7 +258,9 @@
     <MESSAGE value="Delete old test" />
     <MESSAGE value="Add new test for students" />
     <MESSAGE value="update test priority" />
-    <option name="LAST_COMMIT_MESSAGE" value="update test priority" />
+    <MESSAGE value="Add run appium server batch" />
+    <MESSAGE value="just for testing" />
+    <option name="LAST_COMMIT_MESSAGE" value="just for testing" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Training_selenium_example$MainTest.ic" NAME="MainTest Coverage Results" MODIFIED="1661751127591" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
