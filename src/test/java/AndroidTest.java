@@ -25,6 +25,7 @@ public class AndroidTest {
         capabilities.setCapability("platformName", "Android");
         capabilities.setCapability("deviceName", "Android Emulator");
         capabilities.setCapability("app_activity",".ui.actionitem.MainActivity");
+        capabilities.setCapability("allowTestPackages","true");
         capabilities.setCapability("app_package","jinyoung.dev.todolist");
         String apkPath = "src/app-debug.apk";
         capabilities.setCapability(MobileCapabilityType.APP, apkPath);
