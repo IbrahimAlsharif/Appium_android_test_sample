@@ -14,7 +14,6 @@ jobs:
     - name: Setup Java Environment
       uses: actions/setup-java@v2
       with:
-        distribution: temurin
         java-version: 18
         cache: maven
     - name: Install and Run Appium Server
