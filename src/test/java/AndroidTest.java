@@ -24,6 +24,7 @@ public class AndroidTest {
         DesiredCapabilities capabilities= new DesiredCapabilities();
         capabilities.setCapability("platformName", "Android");
         capabilities.setCapability("deviceName", "Android Emulator");
+//        capabilities.setCapability("deviceName", "samsung SM-A605F+");
         capabilities.setCapability("app_activity",".ui.actionitem.MainActivity");
         capabilities.setCapability("allowTestPackages","true");
         capabilities.setCapability("app_package","jinyoung.dev.todolist");

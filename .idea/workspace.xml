@@ -5,8 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0f91bf6d-cffc-43da-8fb4-2267fe240123" name="Changes" comment="update script file location">
-      <change beforePath="$PROJECT_DIR$/.github/workflows/main.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/main.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/AndroidTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/AndroidTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,7 +43,7 @@
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.projectsettings.compiler.javacompiler&quot;
   }
 }</component>
   <component name="RecentsManager">
@@ -56,7 +56,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Shell Script.RunAppiumServer.sh">
+  <component name="RunManager" selected="TestNG.AndroidTest (1)">
     <configuration name="LoadTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="UILoadTest.LoadTest" />
       <module name="Training_appium_example" />
@@ -83,13 +83,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UILoadTest.LoadTest5" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="UILoadTest.LoadTest5" />
-      <module name="Training_appium_example" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="RunAppiumServer.sh" type="ShConfigurationType" temporary="true">
       <option name="SCRIPT_TEXT" value="" />
       <option name="INDEPENDENT_SCRIPT_PATH" value="true" />
@@ -105,6 +98,17 @@
       <envs />
       <method v="2" />
     </configuration>
+    <configuration name="AndroidTest (1)" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Training_selenium_example" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="AndroidTest" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="AndroidTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Training_appium_example" />
       <option name="PACKAGE_NAME" value="" />
@@ -118,11 +122,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.AndroidTest (1)" />
         <item itemvalue="Shell Script.RunAppiumServer.sh" />
         <item itemvalue="TestNG.AndroidTest" />
         <item itemvalue="Application.MainTest" />
         <item itemvalue="Application.LoadTest" />
-        <item itemvalue="Application.UILoadTest.LoadTest5" />
       </list>
     </recent_temporary>
   </component>
